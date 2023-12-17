@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Música</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="img/memorias.jpg" alt="Memórias">
+    <!-- Descrição da música e artista: -->
+    <div class="descricao">
+        <h2>Nome da música</h2>
+        <i>Nome do artista</i>
+    </div>
+    <!-- Duração da música: -->
+    <div class="duracao">
+        <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+        </div>
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">3:40</p>
+        </div>
+    </div>
+    <!-- Botões do player: -->
+    <div class="player">
+        <span class="material-symbols-outlined setas anterior">skip_previous</span>
+        <span class="material-symbols-outlined play">play_arrow</span>
+        <span class="material-symbols-outlined pause">pause</span>
+        <span class="material-symbols-outlined setas proximo">skip_next</span>
+    </div>
+    <audio src="musicas/360ytmp3.com_320kbps-banda-ac-azo-memorias.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
